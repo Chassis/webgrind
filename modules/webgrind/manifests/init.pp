@@ -8,4 +8,9 @@ class webgrind (
 		require => Package[ 'git-core' ],
 		unless  => 'test -d /vagrant/extensions/webgrind/source'
 	}
+	file { '/vagrant/webgrind':
+		ensure => link,
+		target => '/vagrant/extensions/webgrind/source',
+		notify => Service['nginx'],
+	}
 }
