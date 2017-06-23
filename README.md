@@ -1,5 +1,6 @@
 # Webgrind
 A Chassis extension to install and configure Webgrind on your Chassis server.
+![Webgrind](https://bronsons-captured.s3.amazonaws.com/webgrind_of_vagrantwpwp-adminadmin-ajax.php_2017-06-22_22-56-11.png)
 
 ## Usage
 1. Add this extension to your extensions directory `git clone git@github.com:Chassis/webgrind extensions/webgrind`
