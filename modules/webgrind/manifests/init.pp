@@ -1,5 +1,6 @@
 # A Chassis extension to install and configure Webgrind on your Chassis server
 class webgrind (
+	$config,
 	$path   = '/vagrant/extensions/webgrind',
 ) {
 	exec { 'clone webgrind':
